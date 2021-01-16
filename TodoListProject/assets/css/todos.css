@@ -1,3 +1,10 @@
+body{
+    font-family: Roboto;
+    background: #2BC0E4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+}
 h1{
     background: #2980b9;
     color: white;
@@ -6,15 +13,6 @@ h1{
     text-transform: uppercase;
     font-size: 24px;
     font-weight: normal;
-}
-.fa-plus{
-    float: right;
-}
-body{
-    background: #2BC0E4;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   
 }
 span{
     background: #e74c3c;
@@ -36,9 +34,7 @@ ul{
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: Roboto;
-}
+
 li{
     background: #fff;
     height: 40px;
@@ -49,6 +45,12 @@ li:nth-child(2n){
     background: #f7f7f7;
     
 }
+
+.fa-plus{
+    float: right;
+}
+
+
 input{
     font-size: 18px;
     background-color: #f7f7f7;
